@@ -1,0 +1,104 @@
+.wrapper {
+  color: teal;
+  display: block;
+  text-align: center;
+  margin: auto;
+  width: 50%;
+  border: 3px solid green;
+  padding: 10px;
+  margin-top: 150px;
+}
+
+svg {
+  fill-rule: evenodd;
+  clip-rule: evenodd;
+  stroke-linejoin: round;
+  stroke-miterlimit: 1.414;
+  fill: currentcolor;
+  width: 48;
+  height: 48;
+}
+
+.svg {
+  box-sizing: border-box;
+  flex-wrap: wrap;
+  -webkit-box-pack: center;
+  justify-content: center;
+  display: flex;
+  margin: 8px 0px 16px;
+  text-decoration: none;
+  color: rgb(64, 111, 201);
+  margin: 0px 16px 0px 0px;
+}
+
+a:-webkit-any-link {
+  text-decoration: none;
+  color: blue;
+  -webkit-appearance: none;
+}
+
+.pattern-vertical-lines-md {
+  background-image: repeating-linear-gradient(
+    to right,
+    currentColor,
+    currentColor 1px,
+    transparent 1px,
+    transparent
+  );
+  background-size: 25px 25px;
+}
+.h-100vh {
+  height: 100vh !important;
+}
+.flex {
+  display: flex !important;
+}
+.yellow-light,
+.hover-yellow-light:hover {
+  color: #fde482 !important;
+}
+.items-center {
+  align-items: center !important;
+}
+.justify-center {
+  justify-content: center !important;
+}
+.bg-fixed {
+  background-attachment: fixed !important;
+}
+.bg-yellow,
+.hover-bg-yellow:hover {
+  background-color: #facb0e !important;
+}
+* {
+  margin: 0;
+  padding: 0;
+}
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+section {
+  display: block;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+*,
+.text-center {
+  text-align: center;
+}
+.lh-2 {
+  line-height: 1.25 !important;
+}
+.fs-l5 {
+  font-size: 4rem !important;
+}
+.black,
+.hover-black:hover {
+  color: #000 !important;
+}
