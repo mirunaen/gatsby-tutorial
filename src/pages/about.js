@@ -1,7 +1,7 @@
 import React from "react"
 import { Link } from "gatsby"
 import "./styles.css"
-import "../styles/Global.css"
+import "./styles/global.css"
 
 export default function About() {
   return (
