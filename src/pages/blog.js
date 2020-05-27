@@ -6,7 +6,7 @@ const BlogPage = () => {
     <div>
       <h1>Blog</h1>
       <p>Posts will show up here</p>
-      <navComponent />
+      <Nav />
     </div>
   )
 }

@@ -1,7 +1,7 @@
 import React from "react"
 import { Link } from "gatsby"
 
-const navComponent = () => {
+const Nav = () => {
   return (
     <div>
       <nav>
@@ -21,4 +21,4 @@ const navComponent = () => {
   )
 }
 
-export default navComponent
+export default Nav

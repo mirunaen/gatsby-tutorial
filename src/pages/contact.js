@@ -117,7 +117,7 @@ export default function Contact() {
       </div>
       <br />
       <p>Send me a message!</p>
-      <navComponent />
+      <Nav />
     </div>
   )
 }

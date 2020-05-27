@@ -1,5 +1,4 @@
 import React from "react"
-import { Link } from "gatsby"
 import "./styles.css"
 import "./styles/global.css"
 
@@ -24,7 +23,7 @@ export default function About() {
               href="#introduction"
               class="button-lg no-underline br-0 bg-black white fs-s3 ls-wider uppercase hover-opacity-100 focus-white hover-scale-up-1 ease-500"
             >
-              <navComponent />
+              <Nav />
             </a>
           </div>
         </div>
