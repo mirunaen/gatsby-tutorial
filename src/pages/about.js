@@ -23,7 +23,21 @@ export default function About() {
               href="#introduction"
               class="button-lg no-underline br-0 bg-black white fs-s3 ls-wider uppercase hover-opacity-100 focus-white hover-scale-up-1 ease-500"
             >
-              <Nav />
+              <div>
+                <nav>
+                  <ul>
+                    <li>
+                      <Link to="/">HOME</Link>
+                    </li>
+                    <li>
+                      <Link to="blog">BLOG</Link>
+                    </li>
+                    <li>
+                      <Link to="/contact">CONTACT</Link>
+                    </li>
+                  </ul>
+                </nav>
+              </div>
             </a>
           </div>
         </div>
