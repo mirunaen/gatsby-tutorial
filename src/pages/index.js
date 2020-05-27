@@ -5,6 +5,10 @@ const IndexPage = () => {
     <div>
       <h1>Hello!</h1>
       <h2>I`m Miruna,a teenager trying Gatsby</h2>
+      <p>Need a developer?</p> <a href="/contact">Contact me!</a>
+      <p>
+        Need a developer? <Link to="">Contact me </Link>{" "}
+      </p>
     </div>
   )
 }
