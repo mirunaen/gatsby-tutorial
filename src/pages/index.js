@@ -7,9 +7,19 @@ const IndexPage = () => {
       <h2>I`m Miruna,a teenager living in beautiful Spain</h2>
       <p>Need a developer?</p> <a href="/contact">Contact me!</a>
       <p>Need a developer? </p>
-      <Link to="/">Home</Link>
-      <Link to="blog">Blog</Link>
-      <Link to="/contact">Contact</Link>
+      <nav>
+        <ul>
+          <li>
+            <Link to="/">HOME</Link>
+          </li>
+          <li>
+            <Link to="blog">BLOG</Link>
+          </li>
+          <li>
+            <Link to="/contact">CONTACT</Link>
+          </li>
+        </ul>
+      </nav>
     </div>
   )
 }
