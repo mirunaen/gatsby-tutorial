@@ -7,7 +7,7 @@ const IndexPage = () => {
       <h2>I`m Miruna,a teenager trying Gatsby</h2>
       <p>Need a developer?</p> <a href="/contact">Contact me!</a>
       <p>
-        Need a developer? <Link to="">Contact me </Link>{" "}
+        Need a developer? <Link to="/contact">Contact me </Link>{" "}
       </p>
     </div>
   )
