@@ -113,6 +113,19 @@ export default function Contact() {
             </g>
           </svg>
         </a>
+        <nav>
+          <ul>
+            <li>
+              <Link to="/">HOME</Link>
+            </li>
+            <li>
+              <Link to="blog">BLOG</Link>
+            </li>
+            <li>
+              <Link to="/contact">CONTACT</Link>
+            </li>
+          </ul>
+        </nav>
       </div>
       <br />
       <p>Send me a message!</p>
