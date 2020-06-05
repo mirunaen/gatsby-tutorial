@@ -6,7 +6,7 @@ const IndexPage = () => {
       <section
         id="hero"
         className="h-100vh pattern-vertical-lines-md yellow-light bg-yellow flex justify-center items-center bg-fixed"
-        tabindex="-1"
+        tabIndex="-1"
         style={{ outLine: `center` }}
       >
         <div className="container">
@@ -16,23 +16,11 @@ const IndexPage = () => {
           <p className="text-center black opacity-50 fw-600 my-10">
             by Miruna Nedelcu👋.
           </p>
+          <Link to="/">Home</Link>
+          <Link to="blog">BLOG</Link>
+          <Link to="/contact">CONTACT</Link>
         </div>
       </section>
-      <div>
-        <nav>
-          <ul>
-            <li>
-              <Link to="/">Home</Link>
-            </li>
-            <li>
-              <Link to="blog">BLOG</Link>
-            </li>
-            <li>
-              <Link to="/contact">CONTACT</Link>
-            </li>
-          </ul>
-        </nav>
-      </div>
     </div>
   )
 }
