@@ -22,7 +22,7 @@ const IndexPage = () => {
         <nav>
           <ul>
             <li>
-              <Link to="./about">Cover</Link>
+              <Link to="/">Home</Link>
             </li>
             <li>
               <Link to="blog">BLOG</Link>
