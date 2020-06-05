@@ -1,12 +1,10 @@
 import React from "react"
 import { Link } from "gatsby"
 import "./styles.css"
-import navComponent from "./components/nav"
 
 export default function Contact() {
   return (
     <div className="wrapper">
-      <Link to="/">Home</Link>
       <div className="svg">
         <a
           target="_blank"
