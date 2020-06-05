@@ -16,7 +16,7 @@ const IndexPage = () => {
           <p className="text-center black opacity-50 fw-600 my-10">
             by Miruna Nedelcu👋.
           </p>
-          <Link to="/">Home</Link>
+          <link to="/">'HOME'</link>
           <Link to="blog">BLOG</Link>
           <Link to="/contact">CONTACT</Link>
         </div>
