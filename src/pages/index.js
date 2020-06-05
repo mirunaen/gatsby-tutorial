@@ -3,15 +3,26 @@ import { Link } from "gatsby"
 const IndexPage = () => {
   return (
     <div>
-      <h1>Hello!</h1>
-      <h2>I`m Miruna,a teenager living in beautiful Spain</h2>
-      <p>Need a developer?</p> <a href="/contact">Contact me!</a>
-      <p>Need a developer? </p>
+      <section
+        id="hero"
+        className="h-100vh pattern-vertical-lines-md yellow-light bg-yellow flex justify-center items-center bg-fixed"
+        tabindex="-1"
+        style={{ outLine: `center` }}
+      >
+        <div className="container">
+          <h1 className="fs-l5 text-center lh-2 black">
+            My beautiful Journey <br />
+          </h1>
+          <p className="text-center black opacity-50 fw-600 my-10">
+            by Miruna Nedelcu👋.
+          </p>
+        </div>
+      </section>
       <div>
         <nav>
           <ul>
             <li>
-              <Link to="/">HOME</Link>
+              <Link to="./about">Cover</Link>
             </li>
             <li>
               <Link to="blog">BLOG</Link>
