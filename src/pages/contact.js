@@ -114,7 +114,7 @@ export default function Contact() {
         </a>
       </div>
       <br />
-      <p>Send me a message!</p>
+      <p>Send me a message ;)!</p>
       <div>
         <nav>
           <ul>
