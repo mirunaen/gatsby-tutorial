@@ -5,7 +5,7 @@ const BlogPage = () => {
   return (
     <div>
       <h1>Blog</h1>
-      <p>My post will show up here once i figure out how :)</p>
+      <p>My post will show up here</p>
       <div>
         <nav>
           <ul>
